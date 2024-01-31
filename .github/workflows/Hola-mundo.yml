@@ -12,4 +12,4 @@ jobs:
       - name: list files
         run: pwd 
       - name: Run script
-        run: python /usr/bin/hola-mundo.py "$i"
+        run: python /home/runner/work/GU/GU/hola-mundo.py "$i"
