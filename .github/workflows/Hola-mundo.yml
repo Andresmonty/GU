@@ -10,6 +10,6 @@ jobs:
       - name: Definir variable
         run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
       - name: list files
-        run: ls -ll
+        run: ls -ll, pwd 
       - name: Run script
-        run: python hola_mundo.py
+        run: python /usr/bin/hola-mundo.py "$i"
